@@ -15,7 +15,7 @@
 
 ## Branchs
 
-### Ramificação por padrãoo de tarefa
+### Ramificação por padrão de tarefa
 
 *   Crie uma nova branch para trabalhar em cada nova tarefa do rastreador de tarefas.
 *   Criar tarefas curtas e branchs curtas. Branchs muitos longas podem causar `big bang integration`.
