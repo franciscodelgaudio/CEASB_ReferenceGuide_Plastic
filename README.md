@@ -2,8 +2,6 @@
 
 ## Ciclo de Trabalho
 
-![aperfectworkflow-00](https://github.com/user-attachments/assets/8a91a344-55f8-405f-991b-b3b014fa94ac)
-
 *   **Task**: Cada alteração no código deve estar associada a uma tarefa, seja para um novo recurso ou correção de bug.
 *   **Task branch**: Crie uma ramificação específica para cada tarefa.
 *   **Develop**: Trabalhe na sua ramificação de tarefa, fazendo check-ins frequentes e explicando cada etapa nos comentários.
@@ -11,16 +9,20 @@
 *   **Test and Merge**: Depois que a tarefa for revisada/validada, ela será testada. Somente se o conjunto de testes passar na mesclagem, ele será confirmado.
 *   **Deploy**: A nova versão é adicionada a branch principal.
 
-### Branchs
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8a91a344-55f8-405f-991b-b3b014fa94ac">
+</div>
 
-#### Ramificação por padrao de tarefa
+## Branchs
+
+### Ramificação por padrao de tarefa
 
 *   Crie uma nova ramificação para trabalhar em cada nova tarefa do rastreador de tarefas.
 *   Criar tarefas curtas e Branchs curtas. Branchs muitos longas podem causar `big bang integration`
 
 Exemplo de um `big ban integration`
 <div align="center">
-<img src="https://github.com/user-attachments/assets/390f6435-c675-418b-a802-da5f24f82ed1">
+  <img src="https://github.com/user-attachments/assets/390f6435-c675-418b-a802-da5f24f82ed1">
 </div>
 
 *   Nao crie branchs que não fazem sentido isolodamente e não podem ser implementadas de forma independente.
