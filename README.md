@@ -15,19 +15,24 @@
 
 ## Branchs
 
-### Ramificação por padrao de tarefa
+### Ramificação por padrãoo de tarefa
 
 *   Crie uma nova ramificação para trabalhar em cada nova tarefa do rastreador de tarefas.
-*   Criar tarefas curtas e Branchs curtas. Branchs muitos longas podem causar `big bang integration`
+*   Criar tarefas curtas e Branchs curtas. Branchs muitos longas podem causar `big bang integration`.
 
-Exemplo de um `big ban integration`
+Exemplo de um `big ban integration`:
 <div align="center">
   <img src="https://github.com/user-attachments/assets/390f6435-c675-418b-a802-da5f24f82ed1">
 </div>
 
-*   Nao crie branchs que não fazem sentido isolodamente e não podem ser implementadas de forma independente.
-*   Evite ao máximo estruturas como a do modelo abaixo:
-![keeptasksindependent-00](https://github.com/user-attachments/assets/a4ad5b68-ab6a-4367-8d22-9cbb3d389d80)
+*   Nao crie branchs que não fazem sentido isoladamente e não podem ser implementadas de forma independente.
+*   Evite ao máximo branchs que dependam uma das outras.
+
+Exemplo Incorreto:
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a4ad5b68-ab6a-4367-8d22-9cbb3d389d80">
+</div>
+
 *   Caso as tarefas precisem depender uma das outras, avise o _build-master_ ou _integrador_.
 *   Uma task concluída deve estar pronta para ser implementada.
 
