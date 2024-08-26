@@ -38,42 +38,19 @@ Exemplo Incorreto:
 *   Não faça `Checkin` apenas uma vez.
 *   Não faça `Checkin` para você mesmo, ou seja, faça o `Checkin` com o revisor em mente.
 
-Exemplo de `Checkin` para você mesmo (**Incorreto**).
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/d1c25faa-1db7-480a-b34e-41ba1a811c05">
-</div>
-
-Exemplo de `Checkin` para um revisor. (**Correto**)
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/5bfded91-09b4-4e86-98be-5a78614866a8">
-</div>
+| Exemplo de `Checkin` para você mesmo (**Incorreto**). | Exemplo de `Checkin` para um revisor. (**Correto**). |
+| :----: | :----: |
+| <img src="https://github.com/user-attachments/assets/d1c25faa-1db7-480a-b34e-41ba1a811c05"/> | <img src="https://github.com/user-attachments/assets/5bfded91-09b4-4e86-98be-5a78614866a8" /> |
 
 ### Nomenclatura da branch
 
 *   O nome da branch deve seguir o padrão: prefixo + número da tarefa. Exemplo `task1213`.
-*   Prefixos também sao vinculados a rastreadores de tarefas como o Jira/Trello
+*   Prefixos também sao vinculados a rastreadores de tarefas como o Jira/Trello.
 
-#
+#### Conflitos em build
 
-&&&&&&&&
-Agora, como revisor, você não vai diferenciar o branch inteiro. Em vez disso, você diferenciará changeset por changeset. E você seguirá a explicação pré-gravada que o autor fez para esclarecer cada etapa da tarefa. Você não terá que se deparar com uma lista ousada de mais de 100 arquivos modificados. Em vez disso, você irá passo a passo.
+| Conflito | Solução |
+| :----: | :----: |
+| <img src="https://github.com/user-attachments/assets/bc85e496-9943-4b1e-9382-cb7ae04c7710" alt="project"/> | <img src="https://github.com/user-attachments/assets/6f73c544-f85b-4ecf-8a4c-1d8701a58970" alt="project"/> |
 
-Primeiro, você vê 21 arquivos modificados, mas o comentário diz que era apenas sobre limpar alguns usos do C#. A lista de 21 arquivos não é mais assustadora; é apenas sobre remover algumas coisas fáceis. Você pode dar uma olhada rápida nos arquivos ou até mesmo pular alguns deles.
-
-Então, os próximos 12 arquivos são apenas sobre um método extraído para uma nova classe, e os chamadores afetados tendo que se adaptar ao novo formato de chamada. Não é um problema também.
-
-Em seguida, vêm 51 arquivos, mas o comentário diz claramente que é só porque um método foi renomeado. Seu colega está lhe dizendo que é uma mudança trivial, provavelmente feita graças aos recursos de refatoração do IDE em apenas alguns segundos.
-
-Então, vem a mudança real, a difícil. Felizmente, ela afeta apenas 2 arquivos. Você ainda pode gastar bastante tempo nisso, realmente entendendo por que a mudança foi feita e como ela funciona agora. Mas são apenas dois arquivos. Nada a ver com o retrocesso produzido pela visão inicial de 100 arquivos alterados.
-
-Por fim, a última alteração é um método que foi removido porque não é mais invocado.
-
-Mais fácil, não é?
-&&&&&&&&
-
-#### Solução de conflitos em build.
-
-![taskcantbemerged-02](https://github.com/user-attachments/assets/bc85e496-9943-4b1e-9382-cb7ae04c7710)
-![taskcantbemerged-02](https://github.com/user-attachments/assets/19bd143d-d7cd-4175-bd13-9d49447bb8f9)
-![taskcantbemerged-03](https://github.com/user-attachments/assets/6f73c544-f85b-4ecf-8a4c-1d8701a58970)
-![taskcantbemerged-04](https://github.com/user-attachments/assets/8a1fc865-ee0d-450b-a2d2-4f014c4da22c)
+*   Conflitos em build é responsabilidade do programador que realizou a última alteração.
