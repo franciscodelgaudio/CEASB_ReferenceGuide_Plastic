@@ -11,14 +11,14 @@
 *   **Test and Merge**: Depois que a tarefa for revisada/validada, ela será testada. Somente se o conjunto de testes passar na mesclagem, ele será confirmado.
 *   **Deploy**: A nova versão é adicionada a branch principal.
 
-### Uma tarefa por branch
+### Branchs
 
 #### Ramificação por padrao de tarefa
 
-*   Crie uma nova ramificação para trabalhar em cada nova tarefa no rastreador de tarefas.
-*   Criar tarefas curtas (O estilo SCRUM: Tarefas não devem durar mais do que 16 horas).
-*   Branchs muitos longas podem causar `big bang integration`
+*   Crie uma nova ramificação para trabalhar em cada nova tarefa do rastreador de tarefas.
+*   Criar tarefas curtas e Branchs curtas. Branchs muitos longas podem causar `big bang integration`
 
+Exemplo de um `big ban integration`
 ![bigbang-03](https://github.com/user-attachments/assets/390f6435-c675-418b-a802-da5f24f82ed1)
 
 *   Nao crie branchs que não fazem sentido isolodamente e não podem ser implementadas de forma independente.
