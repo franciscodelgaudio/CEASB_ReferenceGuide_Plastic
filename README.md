@@ -5,7 +5,6 @@
 ### Ciclo de Trabalho
 
 ![aperfectworkflow-00](https://github.com/user-attachments/assets/8a91a344-55f8-405f-991b-b3b014fa94ac)
-![aperfectworkflow-01](https://github.com/user-attachments/assets/2478cdbd-d458-4fbb-9610-49668a1b60ca)
 
 *   Task
 Tudo começa com uma tarefa no seu rastreador de problemas ou sistema de gerenciamento de projetos: Jira, Bugzilla, Mantis, Ontime ou sua própria solução caseira. A chave é que tudo o que você faz no código tem uma tarefa associada. Não importa se é parte de um novo recurso ou uma correção de bug; crie uma tarefa para isso. Se você ainda não está praticando isso, comece agora. Acredite em mim, inserir uma tarefa não é nada depois que você e sua equipe se acostumarem.
