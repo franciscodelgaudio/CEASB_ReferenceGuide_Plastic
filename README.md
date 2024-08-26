@@ -2,13 +2,10 @@
 
 ## ESTRATÉGIA DE TRABALHO
 
-### UMA TAREFA - UMA BRANCH
+### Ciclo de Trabalho
 
 ![aperfectworkflow-00](https://github.com/user-attachments/assets/8a91a344-55f8-405f-991b-b3b014fa94ac)
 ![aperfectworkflow-01](https://github.com/user-attachments/assets/2478cdbd-d458-4fbb-9610-49668a1b60ca)
-
-
-#### Explicacao do Ciclo de trabalho
 
 *   Task
 Tudo começa com uma tarefa no seu rastreador de problemas ou sistema de gerenciamento de projetos: Jira, Bugzilla, Mantis, Ontime ou sua própria solução caseira. A chave é que tudo o que você faz no código tem uma tarefa associada. Não importa se é parte de um novo recurso ou uma correção de bug; crie uma tarefa para isso. Se você ainda não está praticando isso, comece agora. Acredite em mim, inserir uma tarefa não é nada depois que você e sua equipe se acostumarem.
@@ -31,8 +28,21 @@ Depois que a tarefa for revisada/validada, ela será testada automaticamente. (A
 *   Deploy
 Você pode obter uma nova versão após cada nova tarefa passar por esse ciclo ou se decidir agrupar algumas. Estamos na era DevOps, com implantação contínua como o novo normal, então implantar cada tarefa na produção faz muito sentido.
 
+### Uma tarefa por branch
+
 #### Ramificação por padrao de tarefa
 
 *   Crie uma nova ramificação para trabalhar em cada nova tarefa no rastreador de tarefas.
+*   Criar tarefas curtas (O estilo SCRUM: Tarefas não devem durar mais do que 16 horas).
+*   Branchs muitos longas podem causar `big bang integration`
+
+![bigbang-03](https://github.com/user-attachments/assets/390f6435-c675-418b-a802-da5f24f82ed1)
+
+*   Nao crie branchs que não fazem sentido isolodamente e não podem ser implementadas de forma independente.
 
 ![taskbranch-00](https://github.com/user-attachments/assets/81807b24-9525-4d41-be4f-5209e22ad4a6)
+
+#### Convenção de nomenclatura de ramificação
+
+*   prefixo + número da tarefa. Exemplo `task1213`.
+*   Prefixos também sao vinculados a rastreadores de tarefas como o Jira.
