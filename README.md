@@ -19,8 +19,9 @@
 *   Criar tarefas curtas e Branchs curtas. Branchs muitos longas podem causar `big bang integration`
 
 Exemplo de um `big ban integration`
-
+<div align=center;>
 ![bigbang-03](https://github.com/user-attachments/assets/390f6435-c675-418b-a802-da5f24f82ed1)
+</div>
 
 *   Nao crie branchs que não fazem sentido isolodamente e não podem ser implementadas de forma independente.
 *   Evite ao máximo estruturas como a do modelo abaixo:
