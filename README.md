@@ -17,8 +17,8 @@
 
 ### Ramificação por padrãoo de tarefa
 
-*   Crie uma nova ramificação para trabalhar em cada nova tarefa do rastreador de tarefas.
-*   Criar tarefas curtas e Branchs curtas. Branchs muitos longas podem causar `big bang integration`.
+*   Crie uma nova branch para trabalhar em cada nova tarefa do rastreador de tarefas.
+*   Criar tarefas curtas e branchs curtas. Branchs muitos longas podem causar `big bang integration`.
 
 Exemplo de um `big ban integration`:
 <div align="center">
@@ -35,23 +35,25 @@ Exemplo Incorreto:
 
 *   Caso as tarefas precisem depender uma das outras, avise o _build-master_ ou _integrador_.
 *   Uma task concluída deve estar pronta para ser implementada.
+*   Não faça `Checkin` apenas uma vez.
+*   Não faça `Checkin` para você mesmo, ou seja, faça o `Checkin` com o revisor em mente.
 
-#### Convenção de nomenclatura de ramificação
+Exemplo de `Checkin` para você mesmo (**Incorreto**).
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d1c25faa-1db7-480a-b34e-41ba1a811c05">
+</div>
 
-*   prefixo + número da tarefa. Exemplo `task1213`.
-*   Prefixos também sao vinculados a rastreadores de tarefas como o Jira.
-![taskbranch-00](https://github.com/user-attachments/assets/81807b24-9525-4d41-be4f-5209e22ad4a6)
+Exemplo de `Checkin` para um revisor. (**Correto**)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5bfded91-09b4-4e86-98be-5a78614866a8">
+</div>
 
-#### Antipadrões: O que não fazer.
+### Nomenclatura da branch
 
-*   `Checkin` apenas uma vez.
-*   `Checkin` para você mesmo. Faça o `Checkin` com o revisor em mente e não você.
+*   O nome da branch deve seguir o padrão: prefixo + número da tarefa. Exemplo `task1213`.
+*   Prefixos também sao vinculados a rastreadores de tarefas como o Jira/Trello
 
-Errado.
-![checkinwithreviewersinmind-01](https://github.com/user-attachments/assets/d1c25faa-1db7-480a-b34e-41ba1a811c05)
-
-Correto.
-![checkinwithreviewersinmind-02](https://github.com/user-attachments/assets/5bfded91-09b4-4e86-98be-5a78614866a8)
+#
 
 &&&&&&&&
 Agora, como revisor, você não vai diferenciar o branch inteiro. Em vez disso, você diferenciará changeset por changeset. E você seguirá a explicação pré-gravada que o autor fez para esclarecer cada etapa da tarefa. Você não terá que se deparar com uma lista ousada de mais de 100 arquivos modificados. Em vez disso, você irá passo a passo.
