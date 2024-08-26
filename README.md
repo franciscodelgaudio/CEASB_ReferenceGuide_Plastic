@@ -4,8 +4,9 @@
 
 ### UMA TAREFA - UMA BRANCH
 
-![image](https://github.com/user-attachments/assets/2caef6df-2b29-41c8-a396-c3d463a04b80)
-![image](https://github.com/user-attachments/assets/0931de27-dbfe-4118-8c41-06fee1040459)
+![aperfectworkflow-00](https://github.com/user-attachments/assets/8a91a344-55f8-405f-991b-b3b014fa94ac)
+![aperfectworkflow-01](https://github.com/user-attachments/assets/2478cdbd-d458-4fbb-9610-49668a1b60ca)
+
 
 #### Explicacao do Ciclo de trabalho
 
@@ -29,3 +30,9 @@ Depois que a tarefa for revisada/validada, ela será testada automaticamente. (A
 
 *   Deploy
 Você pode obter uma nova versão após cada nova tarefa passar por esse ciclo ou se decidir agrupar algumas. Estamos na era DevOps, com implantação contínua como o novo normal, então implantar cada tarefa na produção faz muito sentido.
+
+#### Ramificação por padrao de tarefa
+
+*   Crie uma nova ramificação para trabalhar em cada nova tarefa no rastreador de tarefas.
+
+![taskbranch-00](https://github.com/user-attachments/assets/81807b24-9525-4d41-be4f-5209e22ad4a6)
