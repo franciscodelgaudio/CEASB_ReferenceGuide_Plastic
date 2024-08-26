@@ -39,10 +39,12 @@ Você pode obter uma nova versão após cada nova tarefa passar por esse ciclo o
 ![bigbang-03](https://github.com/user-attachments/assets/390f6435-c675-418b-a802-da5f24f82ed1)
 
 *   Nao crie branchs que não fazem sentido isolodamente e não podem ser implementadas de forma independente.
-
-![taskbranch-00](https://github.com/user-attachments/assets/81807b24-9525-4d41-be4f-5209e22ad4a6)
+*   Evite ao máximo estruturas como a do modelo abaixo:
+![keeptasksindependent-00](https://github.com/user-attachments/assets/a4ad5b68-ab6a-4367-8d22-9cbb3d389d80)
+*   Caso as tarefas precisem depender uma das outras, avise o _build-master_ ou _integrador_.
 
 #### Convenção de nomenclatura de ramificação
 
 *   prefixo + número da tarefa. Exemplo `task1213`.
 *   Prefixos também sao vinculados a rastreadores de tarefas como o Jira.
+![taskbranch-00](https://github.com/user-attachments/assets/81807b24-9525-4d41-be4f-5209e22ad4a6)
