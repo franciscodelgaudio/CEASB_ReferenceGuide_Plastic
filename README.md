@@ -42,7 +42,7 @@ Exemplo Incorreto:
 | :----: | :----: |
 | <img src="https://github.com/user-attachments/assets/d1c25faa-1db7-480a-b34e-41ba1a811c05"/> | <img src="https://github.com/user-attachments/assets/5bfded91-09b4-4e86-98be-5a78614866a8" /> |
 
-### Nomenclatura da branch
+#### Nomenclatura da branch
 
 *   O nome da branch deve seguir o padrão: prefixo + número da tarefa. Exemplo `task1213`.
 *   Prefixos também sao vinculados a rastreadores de tarefas como o Jira/Trello.
@@ -54,3 +54,7 @@ Exemplo Incorreto:
 | <img src="https://github.com/user-attachments/assets/bc85e496-9943-4b1e-9382-cb7ae04c7710" alt="project"/> | <img src="https://github.com/user-attachments/assets/6f73c544-f85b-4ecf-8a4c-1d8701a58970" alt="project"/> |
 
 *   Conflitos em build é responsabilidade do programador que realizou a última alteração.
+
+#### Desenvolvimento baseado em troco (Trunk-based development)
+
+*   
