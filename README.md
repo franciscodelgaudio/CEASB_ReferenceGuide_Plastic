@@ -42,6 +42,7 @@ Você pode obter uma nova versão após cada nova tarefa passar por esse ciclo o
 *   Evite ao máximo estruturas como a do modelo abaixo:
 ![keeptasksindependent-00](https://github.com/user-attachments/assets/a4ad5b68-ab6a-4367-8d22-9cbb3d389d80)
 *   Caso as tarefas precisem depender uma das outras, avise o _build-master_ ou _integrador_.
+*   Uma task concluída deve estar pronta para ser implementada.
 
 #### Convenção de nomenclatura de ramificação
 
@@ -82,4 +83,3 @@ Mais fácil, não é?
 ![taskcantbemerged-02](https://github.com/user-attachments/assets/19bd143d-d7cd-4175-bd13-9d49447bb8f9)
 ![taskcantbemerged-03](https://github.com/user-attachments/assets/6f73c544-f85b-4ecf-8a4c-1d8701a58970)
 ![taskcantbemerged-04](https://github.com/user-attachments/assets/8a1fc865-ee0d-450b-a2d2-4f014c4da22c)
-
