@@ -54,7 +54,7 @@ Exemplo Incorreto:
 | <img src="https://github.com/user-attachments/assets/bc85e496-9943-4b1e-9382-cb7ae04c7710" alt="project"/> | <img src="https://github.com/user-attachments/assets/6f73c544-f85b-4ecf-8a4c-1d8701a58970" alt="project"/> |
 
 *   Conflitos em build é responsabilidade do programador que realizou a última alteração.
-
-#### Desenvolvimento baseado em troco (Trunk-based development)
-
 *   
+-------------------------------------------------------------------------------------------------------
+
+Atributos: Você pode atribuir combinações de pares de valores a uma ramificação. Um caso de uso típico é definir um status: resolvido, aberto, mesclado, com falha.
