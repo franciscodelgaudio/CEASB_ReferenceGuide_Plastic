@@ -27,7 +27,6 @@ Exemplo de um `big ban integration`:
 
 *   Nao crie branchs que não fazem sentido isoladamente e não podem ser implementadas de forma independente.
 *   Evite ao máximo branchs que dependam uma das outras.
-*   Você pode atribuir combinações de pares de valores a uma ramificação. Um caso de uso típico é definir um status: resolvido, aberto, mesclado, com falha.
 *   Atribua um status ao `check-in` como: `resolved`, `open`, `merged`, com `failed`.
 
 Exemplo Incorreto:
