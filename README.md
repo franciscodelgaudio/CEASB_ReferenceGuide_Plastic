@@ -57,3 +57,5 @@ Exemplo Incorreto:
 
 *   Conflitos em build é responsabilidade do programador que realizou a última alteração.
 *   A imagem acima é um exemplo de solução de conflito na build.
+
+/* Branch para correção de bugs. Voltar aqui! (https://docs.plasticscm.com/book/index.html#_a_meaningful_branch_hierarchy)*/
