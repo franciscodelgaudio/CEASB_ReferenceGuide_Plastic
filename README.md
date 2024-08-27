@@ -27,7 +27,6 @@ Exemplo de um `big ban integration`:
 
 *   Nao crie branchs que não fazem sentido isoladamente e não podem ser implementadas de forma independente.
 *   Evite ao máximo branchs que dependam uma das outras.
-*   Atribua um status ao `check-in` como: `resolved`, `open`, `merged`, com `failed`.
 
 Exemplo Incorreto:
 <div align="center">
@@ -38,6 +37,7 @@ Exemplo Incorreto:
 *   Uma task concluída deve estar pronta para ser implementada.
 *   Não faça `Checkin` apenas uma vez.
 *   Não faça `Checkin` para você mesmo, ou seja, faça o `Checkin` com o revisor em mente.
+*   Atribua um status ao `check-in` como: `resolved`, `open`, `merged`, com `failed`.
 
 | Exemplo de `Checkin` para você mesmo (**Incorreto**). | Exemplo de `Checkin` para um revisor. (**Correto**). |
 | :----: | :----: |
