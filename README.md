@@ -27,6 +27,8 @@ Exemplo de um `big ban integration`:
 
 *   Nao crie branchs que não fazem sentido isoladamente e não podem ser implementadas de forma independente.
 *   Evite ao máximo branchs que dependam uma das outras.
+*   Você pode atribuir combinações de pares de valores a uma ramificação. Um caso de uso típico é definir um status: resolvido, aberto, mesclado, com falha.
+*   Atribua um status ao `check-in` como: `resolvido`, `aberto`, `mesclado`, com `falha`.
 
 Exemplo Incorreto:
 <div align="center">
@@ -54,7 +56,4 @@ Exemplo Incorreto:
 | <img src="https://github.com/user-attachments/assets/bc85e496-9943-4b1e-9382-cb7ae04c7710" alt="project"/> | <img src="https://github.com/user-attachments/assets/6f73c544-f85b-4ecf-8a4c-1d8701a58970" alt="project"/> |
 
 *   Conflitos em build é responsabilidade do programador que realizou a última alteração.
-*   
--------------------------------------------------------------------------------------------------------
-
-Atributos: Você pode atribuir combinações de pares de valores a uma ramificação. Um caso de uso típico é definir um status: resolvido, aberto, mesclado, com falha.
+*   A imagem acima é um exemplo de solução de conflito na build.
